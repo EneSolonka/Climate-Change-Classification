@@ -170,7 +170,7 @@ def main():
 		#st.info("Classify with: {}".format(model_choice))
 		# Creating a text box for user input
 		#tweet_text = st.text_area("Enter Text","Type Here")
-		models = ["Logistic Regression", "Random Forest", "Multinomial Naive Bayes", "Support Vector Machine", "K Nearest Neighbours"]
+		models = ["Logistic Regression", "Multinomial Naive Bayes", "Support Vector Machine", "K Nearest Neighbours"]
 		model_choice = st.sidebar.selectbox("Choose Your Model", models)
 		st.info("Make a classification using our {} model".format(model_choice))
 		tweet_text = st.text_area("Enter Text","Type Here")

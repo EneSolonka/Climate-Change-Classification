@@ -13,7 +13,7 @@ Attached within this repository is the Main folder containing the streamlit app 
 ## Models
 Five models were built, Support Vector Classifier, Multinomial Naive-Bayes, Logistic Regression, K-Nearest Neighbours and Random Forest classifier models. 
 Of the five Logistic regression model perfomed best while the Random Forest Classifier perfomed worst in termss of F1-Score.
-Each of the five models are saved as pickle files in the resources folder and can be tested with the local streamlit app.
+Each of the five models are saved as pickle files in the resources folder and can be tested with the local streamlit app except for the Random Forest Classifier which has been excluded as it exceeds the 100MB size permissible for uploading on GitHub.
 
 ## Model Deployment
 The models were deployed on the streamlit app and run on an AWS EC2 instance. To check the perfomance of the different models from the streamlit app, Install  the streamlit app locally from your terminal using 'pip install streamlit'.
