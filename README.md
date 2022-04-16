@@ -17,4 +17,4 @@ Each of the five models are saved as pickle files in the resources folder and ca
 
 ## Model Deployment
 The models were deployed on the streamlit app and run on an AWS EC2 instance. To check the perfomance of the different models from the streamlit app, Install  the streamlit app locally from your terminal using 'pip install streamlit'.
-Clone the repository in your machine and from your terminal change directory into the folder you just cloned the repository into the run the command 'streamlit run base_app.py' click enter and you'll be able to interact with the models locall from the comfort of your default browser!
+Clone the repository in your machine and from your terminal change directory into the folder you just cloned the repository into the run the command 'streamlit run base_app.py' click enter and you'll be able to interact with the models locally from the comfort of your default browser!
